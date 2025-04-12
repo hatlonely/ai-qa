@@ -110,3 +110,7 @@ Steam Play 是 Valve 开发的一项技术，基于 Wine 和其他技术，允�
      ```
 
 通过以上配置，大多数 Steam 上的 Windows 游戏都可以在 Linux Mint 上流畅运行，为您提供与 Windows 系统类似的游戏体验。
+
+## 运行非 Steam 游戏
+
+对于非 Steam 平台的游戏（如暴雪游戏、Epic 游戏商城游戏等），您可以参考《[Linux-Mint-运行炉石传说指南.md](/home/hatlonely/hatlonely/github.com/hatlonely/ai-qa/Linux-Mint-运行炉石传说指南.md)》了解更多信息。
