@@ -113,4 +113,4 @@ Steam Play 是 Valve 开发的一项技术，基于 Wine 和其他技术，允�
 
 ## 运行非 Steam 游戏
 
-对于非 Steam 平台的游戏（如暴雪游戏、Epic 游戏商城游戏等），您可以参考《[Linux-Mint-运行炉石传说指南.md](/home/hatlonely/hatlonely/github.com/hatlonely/ai-qa/Linux-Mint-运行炉石传说指南.md)》了解更多信息。
+对于非 Steam 平台的游戏（如暴雪游戏、Epic 游戏商城游戏等），您可以参考《[Linux-Mint-运行炉石传说指南.md](/Linux-Mint-运行炉石传说指南.md)》了解更多信息。
