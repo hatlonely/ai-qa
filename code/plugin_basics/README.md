@@ -6,17 +6,17 @@
 
 ```
 plugin_basics/
-├── calculator/       # 插件目录
-│   └── calculator.go # 插件源代码
-├── main/             # 主程序目录
-│   └── main.go       # 主程序源代码
-├── run.sh            # 编译运行脚本
-└── README.md         # 本文件
+├── plugin/          # 插件目录
+│   └── plugin.go    # 插件源代码
+├── app/             # 主程序目录
+│   └── main.go      # 主程序源代码
+├── build.sh         # 编译运行脚本
+└── README.md        # 本文件
 ```
 
 ## 功能说明
 
-1. `calculator` 插件提供以下功能：
+1. 插件提供以下功能：
    - `Add(a, b int) int` - 加法函数
    - `Subtract(a, b int) int` - 减法函数
    - `Multiply(a, b int) int` - 乘法函数
@@ -30,7 +30,7 @@ plugin_basics/
 
 ```bash
 # 运行示例
-./run.sh
+./build.sh
 ```
 
 ## 注意事项

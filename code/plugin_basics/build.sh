@@ -3,14 +3,14 @@
 set -e  # 遇到错误立即退出
 
 echo "=== 编译插件 ==="
-cd calculator
-go build -buildmode=plugin -o calculator.so calculator.go
+cd plugin
+go build -buildmode=plugin -o plugin.so plugin.go
 
 echo "=== 编译主程序 ==="
-cd ../main
-go build -o main main.go
+cd ../app
+go build -o app main.go
 
 echo "=== 运行主程序 ==="
-./main
+./app
 
 echo "=== 演示完成 ==="

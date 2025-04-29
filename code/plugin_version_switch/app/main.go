@@ -11,9 +11,9 @@ import (
 
 // 插件版本的路径
 var pluginPaths = map[string]string{
-	"v1": "../version_plugin/v1.so",
-	"v2": "../version_plugin/v2.so",
-	"v3": "../version_plugin/v3.so",
+	"v1": "../plugin/v1.so",
+	"v2": "../plugin/v2.so",
+	"v3": "../plugin/v3.so",
 }
 
 // 加载插件并获取版本信息

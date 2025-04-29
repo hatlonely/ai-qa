@@ -7,14 +7,14 @@
 ```
 code/
 ├── plugin_basics/           # 基础插件示例
-│   ├── calculator/          # 计算器插件
-│   ├── main/                # 基础主程序
-│   ├── run.sh               # 运行脚本
+│   ├── plugin/              # 插件目录
+│   ├── app/                 # 主程序目录
+│   ├── build.sh             # 编译运行脚本
 │   └── README.md            # 说明文档
 │
 ├── plugin_version_switch/   # 插件版本切换示例
-│   ├── version_plugin/      # 多版本插件
-│   ├── main_app/            # 版本切换主程序
+│   ├── plugin/              # 插件目录
+│   ├── app/                 # 主程序目录
 │   ├── build.sh             # 编译脚本
 │   └── README.md            # 说明文档
 │

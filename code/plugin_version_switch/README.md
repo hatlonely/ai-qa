@@ -6,14 +6,14 @@
 
 ```
 plugin_version_switch/
-├── version_plugin/       # 插件目录
-│   ├── v1.go            # 插件版本1
-│   ├── v2.go            # 插件版本2
-│   └── v3.go            # 插件版本3
-├── main_app/            # 主程序目录
-│   └── main.go          # 能动态切换插件版本的主程序
-├── build.sh             # 编译脚本
-└── README.md            # 本文件
+├── plugin/            # 插件目录
+│   ├── v1.go          # 插件版本1
+│   ├── v2.go          # 插件版本2
+│   └── v3.go          # 插件版本3
+├── app/               # 主程序目录
+│   └── main.go        # 能动态切换插件版本的主程序
+├── build.sh           # 编译脚本
+└── README.md          # 本文件
 ```
 
 ## 功能说明
@@ -38,8 +38,8 @@ plugin_version_switch/
 ./build.sh
 
 # 运行主程序
-cd main_app
-./version_switcher
+cd app
+./app
 ```
 
 运行后，可以使用以下命令：
